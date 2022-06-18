@@ -12,3 +12,6 @@ $ docker compose up
 ```
 
 phpmyadmin is ready!
+
+## live system
+remember to stop docker container on live systems once interaction finished
