@@ -12,8 +12,6 @@ networks:
 services:
   phpmyadmin:
     container_name: phpmyadmin
-    depends_on:
-      - mysql_db
     image: phpmyadmin/phpmyadmin
     restart: always
     networks:
